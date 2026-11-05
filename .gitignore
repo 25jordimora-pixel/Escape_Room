@@ -1,0 +1,7 @@
+saves/
+build/
+gradle/
+.idea/
+.vscode/
+db.properties
+db.properties.example
