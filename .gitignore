@@ -1,7 +1,6 @@
 saves/
 build/
-gradle/
+.gradle/
 .idea/
 .vscode/
 db.properties
-db.properties.example
