@@ -20,6 +20,7 @@ class Partida(
 
     // Cambia a la siguiente sala. 
     // !finalizada: Se pone esto ya que el Escape Room no ha terminado por completo. 
+    // salaActual < sales.size - 1: Esta condición comprueba que todavía queden habitaciones por delante
     fun avancarSala() {
         if (iniciada && !finalitzada && salaActual < sales.size -1) {
             salaActual++
