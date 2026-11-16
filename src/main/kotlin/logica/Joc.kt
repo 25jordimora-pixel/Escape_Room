@@ -6,7 +6,7 @@ class Joc {
     private var partidaActual: Partida? = null
 
     // Inicia un nuevo juego con el nombre del jugador y la lista de salas
-    fun inciarJoc(nomJugador: String, sales: List<Sala>) {
+    fun iniciarJoc(nomJugador: String, sales: List<Sala>) {
         
         // Crea un nuevo jugador y una nueva partida, luego inicia la partida
         val jugador = Jugador(nomJugador) // Crea un jugador
